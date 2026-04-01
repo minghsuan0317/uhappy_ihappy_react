@@ -23,7 +23,7 @@ export default function Footer() {
             className="hover:scale-125 transition-transform duration-300 cursor-pointer"
           >
             <img
-              src="src/assets/threads.png"
+              src="/threads.png"
               alt="threads"
               className="w-8 h-8 object-contain drop-shadow"
             />
@@ -35,7 +35,7 @@ export default function Footer() {
             className="hover:scale-125 transition-transform duration-300 cursor-pointer"
           >
             <img
-              src="src/assets/instagram.png"
+              src="/instagram.png"
               alt="instagram"
               className="w-8 h-8 object-contain drop-shadow"
             />
@@ -47,7 +47,7 @@ export default function Footer() {
             className="hover:scale-125 transition-transform duration-300 cursor-pointer"
           >
             <img
-              src="src/assets/facebook.png"
+              src="/facebook.png"
               alt="facebook"
               className="w-8 h-8 object-contain drop-shadow"
             />

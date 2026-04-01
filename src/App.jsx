@@ -10,7 +10,7 @@ const PRODUCTS = [
   {
     id: 1,
     tag: "美髮必備 💆🏻‍♀️",
-    image: "src/assets/hair.jpeg",
+    image: "/hair.jpeg",
     title: "MY.ORGANICS 奇蹟髮膜",
     description: "義大利頂級有機保養，受損髮的救星。",
     price: 945,
@@ -18,7 +18,7 @@ const PRODUCTS = [
   {
     id: 2,
     tag: "足部修復 👣",
-    image: "src/assets/heel.jpeg",
+    image: "/heel.jpeg",
     title: "Dermal Therapy 腳跟龜裂霜",
     description: "澳洲藥局銷售第一，三天告別粗糙腳跟。",
     price: 420,
@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     id: 3,
     tag: "唇部護理 💄",
-    image: "src/assets/limpbalm.jpeg",
+    image: "/limpbalm.jpeg",
     title: "Dermal 醫用級修復護唇膏",
     description: "極度滋潤，告別死皮與暗沈的護唇神物。",
     price: 210,
@@ -34,7 +34,7 @@ const PRODUCTS = [
   {
     id: 4,
     tag: "居家香氛 🕯️",
-    image: "src/assets/oil.jpeg",
+    image: "/oil.jpeg",
     title: "Study of Trees 香氛精油",
     description: "充滿澳洲森林氣息，舒緩壓力的沉穩木質調。",
     price: 735,
@@ -42,7 +42,7 @@ const PRODUCTS = [
   {
     id: 5,
     tag: "清新口氣 🦷",
-    image: "src/assets/oral.jpeg",
+    image: "/oral.jpeg",
     title: "TheraBreath 漱口水",
     description: "溫和不刺痛，長效保持 12 小時清爽口氣。",
     price: 378,
@@ -50,7 +50,7 @@ const PRODUCTS = [
   {
     id: 6,
     tag: "酸類保養 ✨",
-    image: "src/assets/ordinary.jpeg",
+    image: "/ordinary.jpeg",
     title: "The Ordinary 甘醇酸爽膚水",
     description: "超大容量高 CP 值，溫和代謝老廢角質。",
     price: 315,
@@ -58,7 +58,7 @@ const PRODUCTS = [
   {
     id: 7,
     tag: "保濕補水 💧",
-    image: "src/assets/skin.jpeg",
+    image: "/skin.jpeg",
     title: "EAORON 補水塗抹式水光針",
     description: "澳洲知名保養品牌，高濃度玻尿酸快速吸收。",
     price: 525,
@@ -66,7 +66,7 @@ const PRODUCTS = [
   {
     id: 8,
     tag: "防曬首選 ☀️",
-    image: "src/assets/sunscream.jpeg",
+    image: "/sunscream.jpeg",
     title: "Cancer Council 每日防曬",
     description: "澳洲防癌協會出品，輕透不油膩的日常必備。",
     price: 462,
@@ -140,7 +140,7 @@ function App() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/src/assets/logo.jpg"
+                  src="/Logo.JPG"
                   alt="Brand Logo"
                   className="w-80 h-80 md:w-[450px] md:h-[450px] object-cover rounded-[50px] shadow-2xl border-8 border-white transform -rotate-3 group-hover:rotate-0 transition-transform duration-500"
                 />
@@ -160,10 +160,7 @@ function App() {
       </section>
 
       {/* 商品列表區塊*/}
-      <main
-        id="products-section"
-        className="max-w-7xl mx-auto px-6 py-16"
-      >
+      <main id="products-section" className="max-w-7xl mx-auto px-6 py-16">
         <h1 className="text-center text-3xl font-black text-[#585cd1] mb-12 tracking-widest">
           🌸 澳洲藥妝好物 嚴選直郵 🌸
         </h1>

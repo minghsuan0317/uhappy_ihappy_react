@@ -9,28 +9,28 @@ export default function BannerCarousel() {
   const banners = [
     {
       id: 1,
-      image: "src/assets/banner1.JPG",
+      image: "/banner1.JPG",
       title: "澳洲藥妝好物 🇦🇺",
       subtitle: "點我看全文",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
     },
     {
       id: 2,
-      image: "src/assets/banner2.JPG",
+      image: "/banner2.JPG",
       title: "腳跟磨皮器",
       subtitle: "點我看全文",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
     },
     {
       id: 3,
-      image: "src/assets/banner3.JPG",
+      image: "/banner3.JPG",
       title: "塗抹的水光針",
       subtitle: "點我看全文",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
     },
     {
       id: 4,
-      image: "src/assets/banner4.JPG",
+      image: "/banner4.JPG",
       title: "國民護唇膏",
       subtitle: "點我看全文",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
