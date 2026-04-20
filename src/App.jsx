@@ -9,67 +9,67 @@ import BannerCarousel from "./BannerCarousel";
 const PRODUCTS = [
   {
     id: 1,
-    tag: "美髮必備 💆🏻‍♀️",
+    tag: "Hair Care Essentials 💆🏻‍♀️",
     image: "/hair.jpeg",
-    title: "MY.ORGANICS 奇蹟髮膜",
-    description: "義大利頂級有機保養，受損髮的救星。",
-    price: 945,
+    title: "MY.ORGANICS Miracle Hair Mask",
+    description: "Italian premium organic care, savior for damaged hair.",
+    price: 38,
   },
   {
     id: 2,
-    tag: "足部修復 👣",
+    tag: "Foot Repair 👣",
     image: "/heel.jpeg",
-    title: "Dermal Therapy 腳跟龜裂霜",
-    description: "澳洲藥局銷售第一，三天告別粗糙腳跟。",
-    price: 420,
+    title: "Dermal Therapy Heel Crack Cream",
+    description: "Top seller in Australian pharmacies, say goodbye to rough heels in three days.",
+    price: 17,
   },
   {
     id: 3,
-    tag: "唇部護理 💄",
+    tag: "Lip Care 💄",
     image: "/limpbalm.jpeg",
-    title: "Dermal 醫用級修復護唇膏",
-    description: "極度滋潤，告別死皮與暗沈的護唇神物。",
-    price: 210,
+    title: "Dermal Medical Lip Balm",
+    description: "Extremely moisturizing, the lip care essential to say goodbye to dead skin and dullness.",
+    price: 8,
   },
   {
     id: 4,
-    tag: "居家香氛 🕯️",
+    tag: "Home Fragrance 🕯️",
     image: "/oil.jpeg",
-    title: "Study of Trees 香氛精油",
-    description: "充滿澳洲森林氣息，舒緩壓力的沉穩木質調。",
-    price: 735,
+    title: "Study of Trees Essential Oil",
+    description: "Filled with Australian forest scent, soothing woody notes to relieve stress.",
+    price: 40,
   },
   {
     id: 5,
-    tag: "清新口氣 🦷",
+    tag: "Fresh Breath 🦷",
     image: "/oral.jpeg",
-    title: "TheraBreath 漱口水",
-    description: "溫和不刺痛，長效保持 12 小時清爽口氣。",
-    price: 378,
+    title: "TheraBreath Mouthwash",
+    description: "Gentle and non-irritating, long-lasting fresh breath for 12 hours.",
+    price: 25,
   },
   {
     id: 6,
-    tag: "酸類保養 ✨",
+    tag: "Acid Care ✨",
     image: "/ordinary.jpeg",
-    title: "The Ordinary 甘醇酸爽膚水",
-    description: "超大容量高 CP 值，溫和代謝老廢角質。",
-    price: 315,
+    title: "The Ordinary Glycolic Acid Toner",
+    description: "High value large capacity, gently exfoliates old dead skin.",
+    price: 26,
   },
   {
     id: 7,
-    tag: "保濕補水 💧",
+    tag: "Hydration 💧",
     image: "/skin.jpeg",
-    title: "EAORON 補水塗抹式水光針",
-    description: "澳洲知名保養品牌，高濃度玻尿酸快速吸收。",
-    price: 525,
+    title: "EAORON Hydrating Serum",
+    description: "Australian renowned skincare brand, high concentration hyaluronic acid for quick absorption.",
+    price: 25,
   },
   {
     id: 8,
-    tag: "防曬首選 ☀️",
+    tag: "Sunscreen Choice ☀️",
     image: "/sunscream.jpeg",
-    title: "Cancer Council 每日防曬",
-    description: "澳洲防癌協會出品，輕透不油膩的日常必備。",
-    price: 462,
+    title: "Cancer Council Sunscreen",
+    description: "Produced by Australian Cancer Council, lightweight and non-greasy daily essential.",
+    price: 18,
   },
 ];
 
@@ -146,7 +146,7 @@ function App() {
                 />
               </a>
               <div className="absolute -bottom-4 -right-4 bg-[#585cd1] text-white px-6 py-2 rounded-full font-black shadow-lg transform rotate-6">
-                IG私訊我直接下單! ✨
+                DM me on IG to order! ✨
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ function App() {
       {/* 商品列表區塊*/}
       <main id="products-section" className="max-w-7xl mx-auto px-6 py-16">
         <h1 className="text-center text-3xl font-black text-[#585cd1] mb-12 tracking-widest">
-          🌸 澳洲藥妝好物 嚴選直郵 🌸
+          🌸 DAILY ESSENTIALS 🌸
         </h1>
 
         <div className="grid grid-cols-2 gap-8 justify-items-center">

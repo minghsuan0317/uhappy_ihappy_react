@@ -32,14 +32,16 @@ export default function ProductCard({
         </p>
 
         {/* 價格標示 */}
-        <div className="text-[#d8457e] text-2xl font-black my-2">{price}</div>
+        {price && (
+          <div className="text-[#d8457e] text-2xl font-black my-2">{price}</div>
+        )}
 
         {/* 加入購物車按鈕 */}
         <button
           onClick={onAddToCart}
           className="bg-[#585cd1] hover:bg-[#464ab0] text-white font-bold py-3 px-6 rounded-full transition-colors w-full shadow-sm flex justify-center items-center gap-2"
         >
-          <span>加入購物車</span>
+          <span>Add to Cart</span>
           <span className="text-xl">✨</span>
         </button>
       </div>

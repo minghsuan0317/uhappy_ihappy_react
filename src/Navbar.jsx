@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const MENU_ITEMS = [
-  { label: "本週主打", href: "#hero-section" },
-  { label: "人氣好物", href: "#products-section" },
-  { label: "聯絡我們", href: "#contact-section" },
+  { label: "Honest Review", href: "#hero-section" },
+  { label: "Popular Items", href: "#products-section" },
+  { label: "Contact Us", href: "#contact-section" },
 ];
 
 export default function Navbar({ cartCount, onOpenCart }) {
@@ -19,7 +19,7 @@ export default function Navbar({ cartCount, onOpenCart }) {
         aria-expanded={isMenuOpen}
         aria-controls="navbar-menu"
         className="absolute left-6 top-1/2 -translate-y-1/2 p-3 rounded-full hover:bg-white/15 transition backdrop-blur-sm"
-        aria-label="開啟功能選單"
+        aria-label="Open menu"
       >
         <span className="flex flex-col gap-1 w-6">
           <span className="h-0.5 bg-white rounded-full"></span>
@@ -29,14 +29,16 @@ export default function Navbar({ cartCount, onOpenCart }) {
       </button>
       <div className="text-center pointer-events-none">
         <p className="text-3xl font-bold mb-1 tracking-wide">U Happy I Happy</p>
-        <p className="text-sm font-medium leading-relaxed">好黑皮澳洲代購</p>
+        <p className="text-sm font-medium leading-relaxed">
+          Australian Beauty Proxy
+        </p>
       </div>
 
       {/* 點擊按鈕觸發開關 */}
       <button
         onClick={onOpenCart}
         className="absolute right-6 top-1/2 -translate-y-1/2 flex items-center gap-3 bg-white/15 hover:bg-white/25 transition rounded-full px-4 py-2 border border-white/40 shadow-lg backdrop-blur-sm"
-        aria-label="開啟購物車"
+        aria-label="Open cart"
       >
         <span className="relative flex items-center justify-center w-9 h-9 rounded-full bg-white text-[#C25E82] shadow">
           <svg
@@ -49,7 +51,7 @@ export default function Navbar({ cartCount, onOpenCart }) {
           </svg>
         </span>
         <span className="text-sm font-semibold tracking-wider">
-          購物車 {cartCount}
+          Cart {cartCount}
         </span>
       </button>
 

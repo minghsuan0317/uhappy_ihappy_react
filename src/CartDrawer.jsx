@@ -8,7 +8,7 @@ export default function CartDrawer({
 
   const cartTotal = items.reduce(
     (sum, item) => sum + item.price * item.quantity,
-    0
+    0,
   );
 
   return (
@@ -25,7 +25,7 @@ export default function CartDrawer({
         {/* 標題與關閉按鈕 */}
         <div className="flex justify-between items-center mb-10">
           <h2 className="text-2xl font-black text-[#7B646F] font-genjyuu">
-            我的購物車
+            My Cart
           </h2>
           <button
             onClick={onClose}
@@ -55,13 +55,13 @@ export default function CartDrawer({
                 <div className="flex-grow">
                   <h4 className="font-bold text-gray-800">{item.name}</h4>
                   <div className="flex items-center gap-3 text-sm text-gray-500 mt-1">
-                    <span>數量</span>
+                    <span>Amount</span>
                     <div className="flex items-center border border-gray-200 rounded-full overflow-hidden">
                       <button
                         type="button"
                         onClick={() => onQuantityChange(item.id, -1)}
                         className="w-8 h-8 flex items-center justify-center text-lg text-[#7B646F] hover:bg-gray-100"
-                        aria-label={`減少${item.name}的數量`}
+                        aria-label={`Decrease quantity of ${item.name}`}
                       >
                         −
                       </button>
@@ -72,14 +72,14 @@ export default function CartDrawer({
                         type="button"
                         onClick={() => onQuantityChange(item.id, 1)}
                         className="w-8 h-8 flex items-center justify-center text-lg text-[#7B646F] hover:bg-gray-100"
-                        aria-label={`增加${item.name}的數量`}
+                        aria-label={`Increase quantity of ${item.name}`}
                       >
                         +
                       </button>
                     </div>
                   </div>
                   <p className="text-[#C25E82] font-bold mt-2">
-                    NT$ {itemTotal.toLocaleString("en-US")}
+                    AUD$ {itemTotal.toLocaleString("en-US")}
                   </p>
                 </div>
               </div>
@@ -90,14 +90,14 @@ export default function CartDrawer({
         {/* 結帳資訊 */}
         <div className="mt-auto pt-6 border-t border-gray-100">
           <div className="flex justify-between text-xl font-black text-gray-800 mb-6">
-            <span>總計</span>
-            <span>NT$ {cartTotal.toLocaleString("en-US")}</span>
+            <span>Total</span>
+            <span>AUD$ {cartTotal.toLocaleString("en-US")}</span>
           </div>
           <button className="w-full bg-[#585cd1] text-white py-4 rounded-2xl font-bold text-lg shadow-lg hover:bg-[#464ab0] transition-colors">
-            前往結帳
+            Proceed to Checkout
           </button>
           <p className="text-center text-gray-400 text-xs mt-4">
-            預計從澳洲墨爾本寄出
+            Expected to ship from Melbourne, Australia
           </p>
         </div>
       </div>

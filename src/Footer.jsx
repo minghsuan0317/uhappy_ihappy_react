@@ -1,7 +1,6 @@
 // src/Footer.jsx
 
 export default function Footer() {
-
   return (
     // border-t 加上一條微微透明的白線，讓 footer 與上方內容有明顯分隔
     <footer
@@ -11,7 +10,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto px-6 flex flex-col items-center gap-5">
         {/* 品牌名稱 */}
         <h3 className="text-[#C25E82] font-black tracking-widest text-xl font-genjyuu">
-          好黑皮 U Happy I Happy
+          U Happy I Happy
         </h3>
 
         {/* 社群 Icons */}

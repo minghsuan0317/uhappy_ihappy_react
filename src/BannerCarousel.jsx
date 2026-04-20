@@ -1,38 +1,38 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function BannerCarousel() {
   const banners = [
     {
       id: 1,
       image: "/banner1.JPG",
-      title: "澳洲藥妝好物 🇦🇺",
-      subtitle: "點我看全文",
+      title: "Australian Beauty Essentials 🇦🇺",
+      subtitle: "Click to read full post",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
     },
     {
       id: 2,
-      image: "/banner2.JPG",
-      title: "腳跟磨皮器",
-      subtitle: "點我看全文",
+      image: "/heel.jpeg",
+      title: "Heel Magician",
+      subtitle: "Click to read full post",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
     },
     {
       id: 3,
-      image: "/banner3.JPG",
-      title: "塗抹的水光針",
-      subtitle: "點我看全文",
+      image: "/skin.jpeg",
+      title: "Hydrating Serum",
+      subtitle: "Click to read full post",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
     },
     {
       id: 4,
-      image: "/banner4.JPG",
-      title: "國民護唇膏",
-      subtitle: "點我看全文",
+      image: "/limpbalm.jpeg",
+      title: "National Lip Balm",
+      subtitle: "Click to read full post",
       link: "https://www.threads.com/@ming_0317/post/DT0Gx02Etid?xmt=AQF08RODDCBTK97jV4UmNgH4tK00EHPIbf7hRoMf1HrZdQ",
     },
   ];
@@ -83,15 +83,17 @@ export default function BannerCarousel() {
       </Swiper>
 
       <style jsx global>{`
-        .swiper-button-next, .swiper-button-prev {
+        .swiper-button-next,
+        .swiper-button-prev {
           color: #585cd1 !important;
           background: rgba(255, 255, 255, 0.8);
           width: 40px !important;
           height: 40px !important;
           border-radius: 50%;
-          box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .swiper-button-next:after, .swiper-button-prev:after {
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
           font-size: 16px !important;
         }
         .swiper-pagination-bullet-active {
